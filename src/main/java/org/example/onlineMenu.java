@@ -30,8 +30,7 @@ public class onlineMenu extends account{
                 setAccountNumber(onlineMenu.nextInt());
 
                 System.out.println("Enter your pin: ");
-                setPinNumber(menuInput.nextInt());
-
+                setPinNumber();
             } catch (Exception e) {
                 e.printStackTrace();
                 System.out.println("\n" + "Invalid character(s), please only enter numbers" + "\n");
@@ -58,7 +57,7 @@ public class onlineMenu extends account{
 
         //double check
 
-        selection = menuInput.nextInt();
+
 
         switch (selection) {
             case 1:
@@ -84,11 +83,11 @@ public class onlineMenu extends account{
             System.out.println("3 - Deposit Funds");
             System.out.println("4 - Exit");
 
-            selection = menuInput.nextInt();
+
 
             switch (selection) {
                 case 1:
-                    System.out.println("Account Balance: " + moneyFormat.format(getCheckBalance));
+                    System.out.println("Account Balance: " + moneyFormat.format(getCheckBalance()));
                     getAccountType();
                     break;
 
@@ -115,7 +114,6 @@ public class onlineMenu extends account{
             System.out.println("4 - exit ");
 
 
-            selection = menuInput.nextInt();
 
             switch (selection) {
                 case 1:

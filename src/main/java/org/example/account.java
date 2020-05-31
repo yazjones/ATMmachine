@@ -27,8 +27,9 @@ public class account {
         return accountNumber;
     }
 
-    public int setPinNumber(int pinNumber){
+    public int setPinNumber(){
         this.pinNumber = pinNumber;
+        return pinNumber; 
     }
     public int getPinNumber() {
         return pinNumber;
