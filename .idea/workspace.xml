@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="514c515f-2d44-4749-b5ca-608911afc37e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/onlineMenu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ATM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/onlineATM.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ATM_menu.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/onlineMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/onlineMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/App.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,21 +90,21 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="809" y="125" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1590913119404" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1590913418100">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1590931254380">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1590913418100" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1590913418099">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1590931254380" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1590931254380">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1590913418099" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1590913418099">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1590931254380" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1590931254380">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1590913418099" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1590913418100">
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1590931254380" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1590931254380">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1590913418100" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1590931254380" />
   </component>
 </project>

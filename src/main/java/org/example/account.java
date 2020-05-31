@@ -104,7 +104,7 @@ public class account {
               System.out.println("How much do you want to deposit into your savings account: ");
               double amount = input.nextDouble();
 
-              if ((savingBalance + amount) > = 0) {
+              if ((savingBalance + amount) >= 0) {
                   calculatingSavingBalance(amount);
                   System.out.println("New saving account balance" + moneyFormat.format(checkBalance));
               }else{
