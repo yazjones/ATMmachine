@@ -27,7 +27,7 @@ public class onlineMenu extends account{
 
                 System.out.println("Welcome to Yasmin's Online banking");
                 System.out.println("Enter your account number: ");
-                setAccountNumber(menuInput.nextInt());
+                setAccountNumber(onlineMenu.nextInt());
 
                 System.out.println("Enter your pin: ");
                 setPinNumber(menuInput.nextInt());
@@ -44,4 +44,105 @@ public class onlineMenu extends account{
             System.out.println("Wrong account or pin number");
         } while (x ==1);
     }
-}
+
+    private static int nextInt() {
+        return 0;
+    }
+
+    public void getAccountType() {
+        System.out.println("Please select the service you want to access: ");
+        System.out.println("1 - Current Account");
+        System.out.println("2 - Savings Account");
+        System.out.println(" 3 - Exit");
+
+
+        //double check
+
+        selection = menuInput.nextInt();
+
+        switch (selection) {
+            case 1:
+                getAccount();
+                break;
+
+            case 2:
+                getSavings();
+                break;
+
+            case 3:
+                System.out.println("Thank you for using Yasmin's ATM, goodbye");
+                break;
+
+        }
+
+    }
+
+        public void getAccount() {
+            System.out.println("Current Account, please insert the following number related to your chosen service");
+            System.out.println("1 - View Balance");
+            System.out.println("2 - Withdraw Funds");
+            System.out.println("3 - Deposit Funds");
+            System.out.println("4 - Exit");
+
+            selection = menuInput.nextInt();
+
+            switch (selection) {
+                case 1:
+                    System.out.println("Account Balance: " + moneyFormat.format(getCheckBalance));
+                    getAccountType();
+                    break;
+
+                case 2:
+                    getAccountWithdrawBalanceInput();
+                    break;
+
+                case 3:
+                    getAccountDepositInput();
+                    getAccountType();
+                    break;
+
+                case 4:
+                    System.out.println("Thank you for using Yasmin's ATM");
+
+            }
+        }
+
+        public void getSavings() {
+            System.out.println("Savings Account, please insert the following number related to your chosen service ");
+            System.out.println("1 - View Balance");
+            System.out.println("2- Withdraw Funds");
+            System.out.println("3- Deposit Funds");
+            System.out.println("4 - exit ");
+
+
+            selection = menuInput.nextInt();
+
+            switch (selection) {
+                case 1:
+                    System.out.println("Savings Account Balance " + moneyFormat.format(getSavingBalance()));
+                    getAccountType();
+                    break;
+
+                case 2:
+                    getSavingWithdrawBalanceInput();
+                    getAccountType();
+                    break;
+
+                case 3:
+                  getSavingDepositInput();
+                  getAccountType();
+                    break;
+                case 4:
+                    System.out.println("Thank you for using Yasmin's ATM");
+                    break;
+
+            }
+
+
+
+
+
+        }  int selection;
+    }
+
+
