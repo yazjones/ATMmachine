@@ -6,7 +6,7 @@ import java.util.Map;
 import java.util.Scanner;
 
 public class onlineMenu extends account{
-    Scanner atmMenu = new Scanner(System.in);
+    Scanner atmInput = new Scanner(System.in);
     DecimalFormat moneyFormat = new DecimalFormat("'£'###,##0.00");
 
 
@@ -27,10 +27,10 @@ public class onlineMenu extends account{
 
                 System.out.println("Welcome to Yasmin's Online banking");
                 System.out.println("Enter your account number: ");
-                setAccountNumber(onlineMenu.nextInt());
+                setAccountNumber(atmInput.nextInt());
 
                 System.out.println("Enter your pin: ");
-                setPinNumber();
+                setPinNumber(atmInput.nextInt());
             } catch (Exception e) {
                 e.printStackTrace();
                 System.out.println("\n" + "Invalid character(s), please only enter numbers" + "\n");
@@ -44,20 +44,16 @@ public class onlineMenu extends account{
         } while (x ==1);
     }
 
-    private static int nextInt() {
-        return 0;
-    }
+
 
     public void getAccountType() {
         System.out.println("Please select the service you want to access: ");
         System.out.println("1 - Current Account");
         System.out.println("2 - Savings Account");
         System.out.println(" 3 - Exit");
+        System.out.println("Please select your service:  ");
 
-
-        //double check
-
-
+        selection = atmInput.nextInt();
 
         switch (selection) {
             case 1:
@@ -82,8 +78,9 @@ public class onlineMenu extends account{
             System.out.println("2 - Withdraw Funds");
             System.out.println("3 - Deposit Funds");
             System.out.println("4 - Exit");
+            System.out.println("Please select your service:  ");
 
-
+            selection = atmInput.nextInt();
 
             switch (selection) {
                 case 1:
@@ -112,8 +109,9 @@ public class onlineMenu extends account{
             System.out.println("2- Withdraw Funds");
             System.out.println("3- Deposit Funds");
             System.out.println("4 - exit ");
+            System.out.println("Please select your service:  ");
 
-
+            selection = atmInput.nextInt();
 
             switch (selection) {
                 case 1:
